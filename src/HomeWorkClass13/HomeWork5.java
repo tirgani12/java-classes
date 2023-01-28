@@ -1,11 +1,10 @@
 package HomeWorkClass13;
 
-public class HomeWork4 {
+public class HomeWork5 {
     public static void main(String[] args) {
 
-        /*4) How would you reverse a String word by word? for example
-        // input=>This is sentence i want to reverse
-        // output=>sihT si ecnetnes i tnaw ot esrever
+        /*5) How would you check if String is palindrome or not? aba=> true
+Abbc =>false
 
 */
 
@@ -19,6 +18,10 @@ public class HomeWork4 {
             sb.reverse();
             reverseWord+=sb.toString()+" ";
         }
+
         System.out.println(reverseWord);
+
+
+
     }
 }

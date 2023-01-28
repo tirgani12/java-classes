@@ -1,18 +1,27 @@
 package HomeWorkClass13;
 
-public class HomeWork3 {
+public class HomeWork4 {
     public static void main(String[] args) {
 
-        /*3) You have a String a=”Is it saturday? Is it raining? Do we have a Java Class today?
-        ” How would you find out how many sentences are in that String?
+        /*4) How would you reverse a String word by word? for example
+        // input=>This is sentence i want to reverse
+        // output=>sihT si ecnetnes i tnaw ot esrever
 
 */
-        String a="Is it saturday? Is it raining? Do we have a Java Class today?";
 
 
-        System.out.println(a.split("[?]").length);
-        String[]sentence=a.split("[?]");
-        for (int i=0;i< sentence.length;i++)
-        System.out.println(sentence[i]+"?");
+        String str = "This is sentence i want to reverse";
+
+        String[] words = str.split(" ");
+
+        for (String w : words) {
+            for (int i = w.length()-1; i >= 0; i--) {
+                System.out.print(w.charAt(i));
+
+            }
+
+
+            System.out.print(" ");
+        }
     }
 }
