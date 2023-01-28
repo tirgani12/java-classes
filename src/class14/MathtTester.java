@@ -1,8 +1,11 @@
 package class14;
 
-public class Math {
-    //write a method that takes 2 int numbers add them and show the results on console
-    void add(int num1,int num2){
-        System.out.println(num1+num2);
+public class MathtTester {
+    public static void main(String[] args) {
+        Math math=new Math();
+        math.add(10,10);
+        math.mul(10,2,3);
+        int result=math.sub(100,50);
+        System.out.println(result);
     }
 }
