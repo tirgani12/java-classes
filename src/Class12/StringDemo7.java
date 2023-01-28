@@ -8,9 +8,9 @@ public class StringDemo7 {
 
         System.out.println(str.endsWith("java"));
         //Method chaining is when multiple methods are called on the same line be chained
-        // only those methods can be chained wich returns a string
+        // only those methods can be chained witch returns a string
         System.out.println(str.toLowerCase().startsWith("i"));
-        //system.out println(str.lengh().startsWith("i"));
+        //system.out println(str.length().startsWith("i"));
         System.out.println(str.contains("java"));
 
         }

@@ -1,14 +1,19 @@
 package class13;
 
-public class StringRecap {
+public class ReplaceAllMethodDemo {
     public static void main(String[] args) {
-        //how can I print all the letters from this string one by one
-        String str = "Java is Great";
-        for(int i = 0; i<str.length();i++) {
+
+        String str = "tDyujkGil6l@%nbK8dOslpoZ&(90))lkdfj";
 
 
-            System.out.println(str.charAt(i));
+
+            System.out.println(str.replaceAll("[A-Z]","#"));
+            System.out.println(str.replaceAll("[a-z]","#"));
+            System.out.println(str.replaceAll("[0-9]","#"));
+            System.out.println(str.replaceAll("[A-Za-z]","#"));
+            System.out.println(str.replaceAll("[A-Za-z0-9]","#"));
+            System.out.println(str.replaceAll("[^A-Za-z0-9]","#"));
+            System.out.println(str.replaceAll("[^A-Za-z0-9]",""));
         }
 
     }
-}

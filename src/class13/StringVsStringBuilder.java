@@ -1,10 +1,12 @@
 package class13;
 
-public class BuilderDemo {
+public class StringVsStringBuilder {
     public static void main(String[] args) {
 
-        StringBuilder stringBuilder=new StringBuilder("Sunday");
-        System.out.println(stringBuilder.reverse());
+        StringBuilder str=new StringBuilder();
+        for (int i=0;i<1000;i++){
+            str.append(i);
+        }
 
 
 

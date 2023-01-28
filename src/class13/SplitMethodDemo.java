@@ -1,19 +1,16 @@
 package class13;
 
-public class ReplaceAllMethodDemo {
+public class SplitMethodDemo {
     public static void main(String[] args) {
 
-        String str = "tDyujkGil6l@%nbK8dOslpoZ&(90))lkdfj";
+        String str = "I like java. I write a lot of code daily.I am from batch 15." ;
+        String [] strarr=str.split("[.?!]");
+        System.out.println(strarr.length);
+        System.out.println(strarr[2].trim());
+//Whenever we are working with arrays we use the length and
 
 
 
-            System.out.println(str.replaceAll("[A-Z]","#"));
-            System.out.println(str.replaceAll("[a-z]","#"));
-            System.out.println(str.replaceAll("[0-9]","#"));
-            System.out.println(str.replaceAll("[A-Za-z]","#"));
-            System.out.println(str.replaceAll("[A-Za-z0-9]","#"));
-            System.out.println(str.replaceAll("[^A-Za-z0-9]","#"));
-            System.out.println(str.replaceAll("[^A-Za-z0-9]",""));
         }
 
     }
