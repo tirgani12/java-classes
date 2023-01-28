@@ -18,4 +18,7 @@ public class Dog {
     void eat(){
         System.out.println("dog is eating ...........");
     }
+
+    public void printFood() {
+    }
 }
